@@ -1,0 +1,6 @@
+{
+  "name": "رادار المواقع",
+  "description": "تطبيق مراقبة المواقع الإلكترونية والتقاط التحديثات وإرسال تنبيهات ذكية فورية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
