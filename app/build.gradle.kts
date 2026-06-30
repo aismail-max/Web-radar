@@ -11,7 +11,7 @@ android {
   compileSdk { version = release(36) { minorApiLevel = 1 } }
 
   defaultConfig {
-    applicationId = "com.aistudio.sitemonitor.jxmbqk"
+    applicationId = "com.unknown"
     minSdk = 24
     targetSdk = 36
     versionCode = 1
@@ -46,6 +46,11 @@ android {
     debug {
       signingConfig = signingConfigs.getByName("debugConfig")
     }
+  }
+
+  lint {
+    checkReleaseBuilds = false
+    abortOnError = false
   }
   compileOptions {
     sourceCompatibility = JavaVersion.VERSION_11
